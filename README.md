@@ -21,6 +21,8 @@ Classificações feitas por outros usuários
 
 Os dados estão organizados em arquivos CSV.
 
+Link do datasets utilizados: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data
+
 🎯 Objetivos
 
 Explorar e analisar avaliações dos clientes.
@@ -42,3 +44,4 @@ NLTK, SpaCy (NLP)
 PyTorch (Machine Learning)
 
 Matplotlib, Seaborn (Visualização de dados)
+
