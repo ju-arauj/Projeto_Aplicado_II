@@ -24,39 +24,6 @@ Os dados estão organizados em arquivos CSV.
 Link do datasets utilizados: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data
 
 📂 Metadados
- ### Conteúdo do product_info
-
-**Recurso** | **Descrição**  
---- | ---  
-**product_id** | O identificador único do produto no site.  
-**product_name** | O nome completo do produto.  
-**brand_id** | O identificador único da marca do produto no site.  
-**brand_name** | O nome completo da marca do produto.  
-**loves_count** | O número de pessoas que marcaram este produto como favorito.  
-**rating** | A classificação média do produto com base nas avaliações dos usuários.  
-**reviews** | O número de avaliações dos usuários para o produto.  
-**size** | O tamanho do produto, que pode estar em oz, ml, g, pacotes ou outras unidades, dependendo do tipo de produto.  
-**variation_type** | O tipo de parâmetro de variação do produto (ex.: Tamanho, Cor).  
-**variation_value** | O valor específico do parâmetro de variação do produto (ex.: 100 mL, Golden Sand).  
-**variation_desc** | Uma descrição do parâmetro de variação do produto (ex.: tom para pele mais clara).  
-**ingredients** | Uma lista de ingredientes incluídos no produto. Exemplo: `['Variação do produto 1:', 'Água, Glicerina', 'Variação do produto 2:', 'Talco, Mica']` ou, se não houver variações, `['Água, Glicerina']`.  
-**price_usd** | O preço do produto em dólares americanos.  
-**value_price_usd** | A economia potencial do produto, apresentada no site ao lado do preço regular.  
-**sale_price_usd** | O preço promocional do produto em dólares americanos.  
-**limited_edition** | Indica se o produto é uma edição limitada ou não (1-verdadeiro, 0-falso).  
-**new** | Indica se o produto é novo ou não (1-verdadeiro, 0-falso).  
-**online_only** | Indica se o produto é vendido apenas online ou não (1-verdadeiro, 0-falso).  
-**out_of_stock** | Indica se o produto está fora de estoque ou não (1 se verdadeiro, 0 se falso).  
-**sephora_exclusive** | Indica se o produto é exclusivo da Sephora ou não (1 se verdadeiro, 0 se falso).  
-**highlights** | Uma lista de tags ou características que destacam os atributos do produto (ex.: `['Vegano', 'Acabamento Fosco']`).  
-**primary_category** | Primeira categoria na seção de navegação do site.  
-**secondary_category** | Segunda categoria na seção de navegação do site.  
-**tertiary_category** | Terceira categoria na seção de navegação do site.  
-**child_count** | O número de variações disponíveis do produto.  
-**child_max_price** | O maior preço entre as variações do produto.  
-**child_min_price** | O menor preço entre as variações do produto.  
-
----
 
 ### Conteúdo do Dataset_Reviews
 
